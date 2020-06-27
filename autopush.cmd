@@ -5,8 +5,8 @@ schtasks /query /tn "GitAutoPush" && cls
 if %errorlevel% equ 0 (
     REM Ao Ver essa mensagem acesse seu agendador de terefas para alterar configurações
     REM Reexecutar o script vai sobreescrever as configurações
-    msg /w * Tarefa GitAutoPush será executada ! && schtasks /run /tn "GitAutoPush"
-    
+    msg /w * Tarefa GitAutoPush sera executada ! && schtasks /run /tn "GitAutoPush"
+    exit
 ) else (
     msg /w * Tarefa GitAutoPush ainda nao criada ! && goto criatarefa 
 

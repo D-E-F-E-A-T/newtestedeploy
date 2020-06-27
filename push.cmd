@@ -1,4 +1,5 @@
 @echo off
+
 git init
 
 REM Auto execução adiciondo novos arquivos
