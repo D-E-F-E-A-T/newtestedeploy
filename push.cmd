@@ -11,4 +11,8 @@ git commit -m "Auto Push Atualizando Arquivos"
 REM Auto execução push dos arquivos
 git push
 
+timeout 10
+
+exit 0
+
 pause

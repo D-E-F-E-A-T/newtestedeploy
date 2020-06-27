@@ -20,7 +20,7 @@ echo "O horario deve ser acertivo pois ira agendar assim que executado"
 echo.
 set /p hora=Horario^>
 REM Ao executar esse comando  o agendamento vai executar o script todos os dias nesse horário
-schtasks /create /sc daily /tn "GitAutoPush" /tr "%cd%\push.cmd" /st %hora%
+schtasks /create /sc daily /tn "GitAutoPush" /tr "C:\Users\vinicius.pereira\OneDrive - Processor\Área de Trabalho\newtestedeploy.git\push.cmd" /st %hora%
 msg /w * Tarefa criada: %hora%
 
 pause
