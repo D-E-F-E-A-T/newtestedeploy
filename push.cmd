@@ -2,6 +2,8 @@
 
 git init
 
+git remote add "https://github.com/shabazzBr/newtestedeploy"
+
 REM Auto execução adiciondo novos arquivos
 git add .
 
