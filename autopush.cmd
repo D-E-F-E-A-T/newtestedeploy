@@ -1,6 +1,5 @@
 @echo off
 
-
 schtasks /query /tn "NewPush" && cls
 if %errorlevel% equ 0 (
     REM Ao Ver essa mensagem acesse seu agendador de terefas para alterar configurações
@@ -11,7 +10,6 @@ if %errorlevel% equ 0 (
     msg /w * Tarefa GitAutoPush ainda nao criada ! && goto criatarefa 
 
 )
-
 
 :criatarefa
 echo "Escolha o horario para definir o deploy automatico."
