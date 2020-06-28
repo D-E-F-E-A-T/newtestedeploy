@@ -22,6 +22,9 @@ copy NUL README.md
 msg /w * README criado !
 timeout 1
 
+REM CRIANDO GITIGNORE
+copy NUL .gitignore
+
 REM ADICIOANDO ARQUIVOS
 git add .
 msg /w * Arquivos adicionados !
