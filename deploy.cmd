@@ -1,4 +1,8 @@
 @echo off
+
+title Deploy automatizado
+color a
+
 REM VALIDANDO SE O DIRETÒRIO ATUAL TEM A EXTENSÂO .GIT
 echo %cd% | find /i ".git" && cls
 if %errorlevel% equ 0 (
