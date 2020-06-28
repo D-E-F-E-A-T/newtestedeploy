@@ -17,4 +17,5 @@ timeout 10
 
 exit 0
 
-pause
+pause>nul
+del nul
