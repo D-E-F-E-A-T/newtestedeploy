@@ -24,6 +24,7 @@ timeout 1
 
 REM CRIANDO GITIGNORE
 copy NUL .gitignore
+msg /w * GITIGNORE criado !
 
 REM ADICIOANDO ARQUIVOS
 git add .
